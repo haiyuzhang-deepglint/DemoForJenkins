@@ -10,6 +10,7 @@
 		},
 		{
 			"checksumSHA1": "z2j2TvY7Vf7Ux1y9d6eUrKicbGs=",
+			"origin":"github.com/golang/sys/unix",
 			"path": "golang.org/x/sys/unix",
 			"revision": "a200a19cb90b19de298170992778b1fda7217bd6",
 			"revisionTime": "2018-06-25T06:32:13Z"
