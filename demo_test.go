@@ -1,17 +1,18 @@
 package main
 
 import (
+	"github.com/haiyuzhang-deepglint/Hello"
 	"testing"
 	"fmt"
 )
 
 func TestHello(t *testing.T) {
-	Hello("Jackie")
-	Hello("Jenkins")
+	Hello.Hello("Jackie")
+	Hello.Hello("Jenkins")
 }
 
 func TestHello1(t *testing.T) {
-	result := Hello1("Jackie")
+	result := Hello.Hello1("Jackie")
 	if result!="Hello Jackie" {
 		t.Fail()
 	} else {
@@ -20,7 +21,7 @@ func TestHello1(t *testing.T) {
 }
 
 func TestHello2(t *testing.T) {
-	result := Hello1("Jenkins")
+	result := Hello.Hello1("Jenkins")
 	if result!="Hello Jenkins" {
 		t.Fail()
 	} else {

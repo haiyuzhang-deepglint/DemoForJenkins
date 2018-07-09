@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/haiyuzhang-deepglint/Hello"
+	"golang.org/x/sys/unix"
+)
 
 func main() {
 
@@ -8,12 +12,14 @@ func main() {
 	fmt.Println("For Test!!!")
 	fmt.Println("For commit auto check!!!")
 	fmt.Println("For SCM test.")
-}
 
-func Hello(name string) {
-	fmt.Println("Hello ", name)
-}
+	fmt.Println("Below message form Hello Package.")
+	Hello.Hello("Jackie")
+	fmt.Println(Hello.Hello1("Jenkins"))
 
-func Hello1(name string) string {
-	return "Hello " + name
+	fmt.Println("Hello2 func :")
+	Hello.Hello2("Jackie")
+	Hello.Hello2("Jenkins")
+
+	unix.ByteSliceFromString("Jenkins")
 }

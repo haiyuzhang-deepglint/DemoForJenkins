@@ -1,0 +1,19 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "qSh3pyumYlOHyqVTHPFrg1wEksg=",
+			"path": "github.com/haiyuzhang-deepglint/Hello",
+			"revision": "dee0efdee176f32c49b4bd612bdbdc01a08f38c1",
+			"revisionTime": "2018-07-09T03:15:35Z"
+		},
+		{
+			"checksumSHA1": "z2j2TvY7Vf7Ux1y9d6eUrKicbGs=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "a200a19cb90b19de298170992778b1fda7217bd6",
+			"revisionTime": "2018-06-25T06:32:13Z"
+		}
+	],
+	"rootPath": "github.com/haiyuzhang-deepglint/DemoForJenkins"
+}
